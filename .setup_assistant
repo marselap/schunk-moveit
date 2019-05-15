@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: schunk_lwa4p_description
+    relative_path: urdf/schunk_lwa4p_blue.urdf.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/lwa4p_blue.srdf
+  CONFIG:
+    author_name: dfbg e
+    author_email: ver@vjern.com
+    generated_timestamp: 1557827715
